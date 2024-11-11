@@ -16,11 +16,12 @@ public class QuickSort {
             }
         }
 
+        // coloca o pivot na pos correta
         int temp = arr[i+1];
         arr[i + 1] = arr[high];
         arr[high] = temp;
 
-        return i + 1;
+        return i + 1;  // retorna a pos do pivot
     }
 
     public static void quickSort(int[] arr, int low, int high) {
