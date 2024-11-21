@@ -1,6 +1,6 @@
-package randomtests;
+package dynamicprogramming;
 
-public class DynamicProgramming {
+public class Fibonacci {
 
     public static void main(String[] args) {
         int n = 5; // Valor de exemplo
